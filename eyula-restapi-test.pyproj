@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1b48d146-aeec-4281-b979-3bbe594b0ab9</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>eyula-restapi-test</Name>
+    <RootNamespace>eyula-restapi-test</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="eyula_restapi_test\companies\companies_service.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\companies\routes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\companies\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\customers\customer_service.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\customers\routes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\customers\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\shareddb\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\json_encoder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\mongo_operations\create_collection.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\mongo_operations\mongo_aggregation.py" />
+    <Compile Include="eyula_restapi_test\utils\mongo_operations\mongo_crud.py" />
+    <Compile Include="eyula_restapi_test\utils\mongo_operations\mongo_index.py" />
+    <Compile Include="eyula_restapi_test\utils\mongo_operations\mongo_modify_query.py" />
+    <Compile Include="eyula_restapi_test\utils\tests\create\create_accounts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\create\create_address.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\create\create_collections.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\create\create_company.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\create\create_customers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\update\activate_collections.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\delete\delete_accounts.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\delete\delete_address.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\delete\delete_company.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\delete\delete_customers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\tests\update\insert_employees.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\validators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eyula_restapi_test\utils\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="runserver.py" />
+    <Compile Include="eyula_restapi_test\__init__.py" />
+    <Compile Include="eyula_restapi_test\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="eyula_restapi_test\" />
+    <Folder Include="eyula_restapi_test\companies\" />
+    <Folder Include="eyula_restapi_test\customers\" />
+    <Folder Include="eyula_restapi_test\data\" />
+    <Folder Include="eyula_restapi_test\utils\" />
+    <Folder Include="eyula_restapi_test\shareddb\" />
+    <Folder Include="eyula_restapi_test\static\" />
+    <Folder Include="eyula_restapi_test\static\content\" />
+    <Folder Include="eyula_restapi_test\static\fonts\" />
+    <Folder Include="eyula_restapi_test\static\scripts\" />
+    <Folder Include="eyula_restapi_test\templates\" />
+    <Folder Include="eyula_restapi_test\utils\mongo_operations\" />
+    <Folder Include="eyula_restapi_test\utils\tests\" />
+    <Folder Include="eyula_restapi_test\utils\tests\create\" />
+    <Folder Include="eyula_restapi_test\utils\tests\delete\" />
+    <Folder Include="eyula_restapi_test\utils\tests\update\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="eyula_restapi_test\data\users.json" />
+    <Content Include="requirements.txt" />
+    <Content Include="eyula_restapi_test\static\content\bootstrap.css" />
+    <Content Include="eyula_restapi_test\static\content\bootstrap.min.css" />
+    <Content Include="eyula_restapi_test\static\content\site.css" />
+    <Content Include="eyula_restapi_test\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="eyula_restapi_test\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="eyula_restapi_test\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="eyula_restapi_test\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="eyula_restapi_test\static\scripts\bootstrap.js" />
+    <Content Include="eyula_restapi_test\static\scripts\bootstrap.min.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery-1.10.2.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery.validate.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery.validate.min.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="eyula_restapi_test\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="eyula_restapi_test\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="eyula_restapi_test\static\scripts\respond.js" />
+    <Content Include="eyula_restapi_test\static\scripts\respond.min.js" />
+    <Content Include="eyula_restapi_test\static\scripts\_references.js" />
+    <Content Include="eyula_restapi_test\templates\index.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

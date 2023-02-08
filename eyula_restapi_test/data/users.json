@@ -1,0 +1,23 @@
+[
+  {
+    "firstName": "Terry",
+    "lastName": "Medhurst",
+    "username": "atuny0",
+    "birthDate": "1998-04-27",
+    "gender": "male",
+    "email": "atuny0@sohu.com",
+    "profilePhoto": "photo.jpg",
+    "phone": {
+      "countryCode": "+90",
+      "number": "05334529807"
+    },
+    "addresses": [ "507f1f77bcf86cd799439011", "507f1f77bcf86cd799439012" ],
+    "ip": [ "117.29.86.254", "188.29.86.254" ],
+    "title": "Software Developer",
+    "company": [ "207f1f77bcf86cd799439011" ],
+    "bankAccounts": [ "407f1f77bcf86cd799439011", "507f1f77bcf86cd799439011" ],
+    "rDate": "2022-12-31T23:59:59.999Z",
+    "uDate": "2022-12-31T23:59:59.999Z",
+    "status" : true
+  }
+]
