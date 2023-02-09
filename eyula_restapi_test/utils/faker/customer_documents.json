@@ -1,0 +1,552 @@
+[
+  {
+    "customers": {
+      "firstName": "Jacob",
+      "lastName": "Gill",
+      "username": "jason38",
+      "birthDate": "1995-03-30",
+      "gender": 1,
+      "email": "fkelly@example.org",
+      "profile": "https://picsum.photos/936/550",
+      "phone": "+19257381261",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "172.244.57.180"
+      ],
+      "status": false,
+      "type": 1,
+      "rDate": "2023-02-08 13:19:52.637320",
+      "uDate": "2023-02-08 13:19:52.637320",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Lesotho",
+        "city": "New Lauren",
+        "district": "Iowa",
+        "street": "827",
+        "buildingNumber": "9082",
+        "doorNumber": 57,
+        "coordinates": {
+          "latitude": 73.48,
+          "longitude": 75.51
+        },
+        "type": 0,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Santander",
+        "cardNumber": "4060368796447",
+        "cardExpire": "05/31",
+        "cardType": "MasterCard",
+        "currency": "USD",
+        "type": 1,
+        "rDate": "2023-02-08 13:19:52.637320",
+        "uDate": "2023-02-08 13:19:52.637320",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Ryan",
+      "lastName": "Valencia",
+      "username": "pattersonmichael",
+      "birthDate": "2004-05-30",
+      "gender": 1,
+      "email": "michaelpotter@example.org",
+      "profile": "https://placekitten.com/452/342",
+      "phone": "001-657-508-4370x866",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "10.10.141.84"
+      ],
+      "status": true,
+      "type": 0,
+      "rDate": "2023-02-08 13:19:52.638321",
+      "uDate": "2023-02-08 13:19:52.638321",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Lesotho",
+        "city": "South Melissa",
+        "district": "New Jersey",
+        "street": "04321",
+        "buildingNumber": "056",
+        "doorNumber": 2,
+        "coordinates": {
+          "latitude": -40.39,
+          "longitude": 163.65
+        },
+        "type": 0,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Bank of America",
+        "cardNumber": "373216702316077",
+        "cardExpire": "06/32",
+        "cardType": "Visa",
+        "currency": "RUB",
+        "type": 0,
+        "rDate": "2023-02-08 13:19:52.638321",
+        "uDate": "2023-02-08 13:19:52.638321",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Carol",
+      "lastName": "Smith",
+      "username": "rberger",
+      "birthDate": "2003-07-18",
+      "gender": 1,
+      "email": "morganpatrick@example.net",
+      "profile": "https://placeimg.com/588/405/any",
+      "phone": "(372)552-1477x59971",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "215.51.217.92"
+      ],
+      "status": false,
+      "type": 1,
+      "rDate": "2023-02-08 13:19:52.639320",
+      "uDate": "2023-02-08 13:19:52.639320",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Botswana",
+        "city": "South Brandyberg",
+        "district": "Texas",
+        "street": "1974",
+        "buildingNumber": "54966",
+        "doorNumber": 7,
+        "coordinates": {
+          "latitude": 64.76,
+          "longitude": 109.91
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Santander",
+        "cardNumber": "3527802208536471",
+        "cardExpire": "02/23",
+        "cardType": "MasterCard",
+        "currency": "TRY",
+        "type": 0,
+        "rDate": "2023-02-08 13:19:52.639320",
+        "uDate": "2023-02-08 13:19:52.639320",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Karen",
+      "lastName": "Martin",
+      "username": "wilsonscott",
+      "birthDate": "1968-06-30",
+      "gender": 1,
+      "email": "townsendjohn@example.com",
+      "profile": "https://picsum.photos/582/736",
+      "phone": "036.469.7121",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "177.1.189.194"
+      ],
+      "status": true,
+      "type": 0,
+      "rDate": "2023-02-08 13:19:52.640322",
+      "uDate": "2023-02-08 13:19:52.640322",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Guernsey",
+        "city": "Walkerport",
+        "district": "Rhode Island",
+        "street": "2024",
+        "buildingNumber": "644",
+        "doorNumber": 82,
+        "coordinates": {
+          "latitude": -63.72,
+          "longitude": -30.96
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Garanti BBVA",
+        "cardNumber": "4502165882753532",
+        "cardExpire": "04/26",
+        "cardType": "MasterCard",
+        "currency": "USD",
+        "type": 0,
+        "rDate": "2023-02-08 13:19:52.640322",
+        "uDate": "2023-02-08 13:19:52.640322",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Lauren",
+      "lastName": "White",
+      "username": "brownkevin",
+      "birthDate": "1946-09-26",
+      "gender": 1,
+      "email": "jamesmcgrath@example.org",
+      "profile": "https://placeimg.com/542/792/any",
+      "phone": "191.870.4540x377",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "117.9.227.251"
+      ],
+      "status": true,
+      "type": 0,
+      "rDate": "2023-02-08 13:19:52.641321",
+      "uDate": "2023-02-08 13:19:52.641321",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Solomon Islands",
+        "city": "Morrisontown",
+        "district": "Nebraska",
+        "street": "3154",
+        "buildingNumber": "144",
+        "doorNumber": 6,
+        "coordinates": {
+          "latitude": -56.91,
+          "longitude": -92.99
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Santander",
+        "cardNumber": "675990850538",
+        "cardExpire": "02/31",
+        "cardType": "American Express",
+        "currency": "RUB",
+        "type": 0,
+        "rDate": "2023-02-08 13:19:52.641321",
+        "uDate": "2023-02-08 13:19:52.641321",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Tonya",
+      "lastName": "Green",
+      "username": "brandon14",
+      "birthDate": "1911-06-10",
+      "gender": 1,
+      "email": "hunter08@example.com",
+      "profile": "https://placekitten.com/636/178",
+      "phone": "(507)494-8438",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "106.254.131.21"
+      ],
+      "status": false,
+      "type": 0,
+      "rDate": "2023-02-08 13:19:52.641321",
+      "uDate": "2023-02-08 13:19:52.641321",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Lithuania",
+        "city": "Port Sethside",
+        "district": "Idaho",
+        "street": "680",
+        "buildingNumber": "873",
+        "doorNumber": 21,
+        "coordinates": {
+          "latitude": -11.42,
+          "longitude": 56.71
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Santander",
+        "cardNumber": "501810382975",
+        "cardExpire": "04/31",
+        "cardType": "Visa",
+        "currency": "TRY",
+        "type": 1,
+        "rDate": "2023-02-08 13:19:52.641321",
+        "uDate": "2023-02-08 13:19:52.641321",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Ronald",
+      "lastName": "Middleton",
+      "username": "henrymichelle",
+      "birthDate": "1926-11-12",
+      "gender": 1,
+      "email": "jamesstacy@example.net",
+      "profile": "https://picsum.photos/330/663",
+      "phone": "(250)329-8179x8425",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "59.246.134.95"
+      ],
+      "status": false,
+      "type": 1,
+      "rDate": "2023-02-08 13:19:52.642321",
+      "uDate": "2023-02-08 13:19:52.642321",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Bulgaria",
+        "city": "North Jeffrey",
+        "district": "Colorado",
+        "street": "3442",
+        "buildingNumber": "11422",
+        "doorNumber": 90,
+        "coordinates": {
+          "latitude": -23.6,
+          "longitude": -73.89
+        },
+        "type": 0,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Santander",
+        "cardNumber": "36220325472282",
+        "cardExpire": "10/25",
+        "cardType": "MasterCard",
+        "currency": "USD",
+        "type": 0,
+        "rDate": "2023-02-08 13:19:52.642321",
+        "uDate": "2023-02-08 13:19:52.642321",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Carrie",
+      "lastName": "Mathews",
+      "username": "danielhudson",
+      "birthDate": "1920-03-04",
+      "gender": 0,
+      "email": "johnsonmaria@example.org",
+      "profile": "https://placekitten.com/256/382",
+      "phone": "802.808.1302",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "167.114.52.92"
+      ],
+      "status": true,
+      "type": 1,
+      "rDate": "2023-02-08 13:19:52.643321",
+      "uDate": "2023-02-08 13:19:52.643321",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Cayman Islands",
+        "city": "Carrieville",
+        "district": "Georgia",
+        "street": "73262",
+        "buildingNumber": "906",
+        "doorNumber": 82,
+        "coordinates": {
+          "latitude": -76.96,
+          "longitude": -113.21
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Ziraat Bankas\u0131",
+        "cardNumber": "4878923476894",
+        "cardExpire": "09/29",
+        "cardType": "American Express",
+        "currency": "TRY",
+        "type": 1,
+        "rDate": "2023-02-08 13:19:52.643321",
+        "uDate": "2023-02-08 13:19:52.643321",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Taylor",
+      "lastName": "Becker",
+      "username": "deborah94",
+      "birthDate": "1974-04-29",
+      "gender": 0,
+      "email": "sethdavis@example.org",
+      "profile": "https://picsum.photos/39/331",
+      "phone": "(716)252-7796x6833",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "167.24.106.128"
+      ],
+      "status": false,
+      "type": 0,
+      "rDate": "2023-02-08 13:19:52.643321",
+      "uDate": "2023-02-08 13:19:52.643321",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Bermuda",
+        "city": "Jacksonstad",
+        "district": "Ohio",
+        "street": "5760",
+        "buildingNumber": "6550",
+        "doorNumber": 72,
+        "coordinates": {
+          "latitude": 77.39,
+          "longitude": 146.32
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Santander",
+        "cardNumber": "6591685261433783",
+        "cardExpire": "04/26",
+        "cardType": "Visa",
+        "currency": "EUR",
+        "type": 0,
+        "rDate": "2023-02-08 13:19:52.644321",
+        "uDate": "2023-02-08 13:19:52.644321",
+        "status": true
+      }
+    ]
+  },
+  {
+    "customers": {
+      "firstName": "Monique",
+      "lastName": "Webster",
+      "username": "fmaldonado",
+      "birthDate": "1937-12-16",
+      "gender": 1,
+      "email": "smartin@example.org",
+      "profile": "https://placekitten.com/720/63",
+      "phone": "2162031744",
+      "addresses": [
+      ],
+      "bankAccounts": [
+      ],
+      "ip": [
+        "141.125.182.199"
+      ],
+      "status": false,
+      "type": 1,
+      "rDate": "2023-02-08 13:19:52.644321",
+      "uDate": "2023-02-08 13:19:52.644321",
+      "company": [
+        "Google"
+      ]
+    },
+    "addresses": [
+      {
+        "country": "Madagascar",
+        "city": "Lake Kyle",
+        "district": "West Virginia",
+        "street": "46587",
+        "buildingNumber": "81718",
+        "doorNumber": 100,
+        "coordinates": {
+          "latitude": -8.51,
+          "longitude": -116.5
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Garanti BBVA",
+        "cardNumber": "4054288388195",
+        "cardExpire": "08/25",
+        "cardType": "American Express",
+        "currency": "TRY",
+        "type": 1,
+        "rDate": "2023-02-08 13:19:52.644321",
+        "uDate": "2023-02-08 13:19:52.644321",
+        "status": true
+      }
+    ]
+  }
+]

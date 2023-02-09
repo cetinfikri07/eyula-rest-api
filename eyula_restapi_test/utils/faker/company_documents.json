@@ -1,0 +1,232 @@
+[
+  {
+    "companies": {
+      "companyName": "Google",
+      "employees": [
+      ],
+      "taxNo": "5484327042481",
+      "addresses": [
+      ],
+      "email": "google@example.com",
+      "phone": "+12092009023",
+      "status": true,
+      "bankAccounts": [
+      ],
+      "rDate": "2023-02-08 12:02:58.738906",
+      "uDate": "2023-02-08 12:02:58.738906"
+    },
+    "addresses": [
+      {
+        "country": "United States",
+        "city": "California",
+        "district": "Mountain View",
+        "street": "3038",
+        "buildingNumber": "00949",
+        "doorNumber": 23,
+        "coordinates": {
+          "latitude": 48.7,
+          "longitude": -134.48
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Bank of America",
+        "cardNumber": "3542520946107063",
+        "cardExpire": "02/29",
+        "cardType": "American Express",
+        "currency": "USD",
+        "type": 1,
+        "rDate": "2023-02-08 12:02:58.738906",
+        "uDate": "2023-02-08 12:02:58.738906",
+        "status": true
+      }
+    ]
+  },
+  {
+    "companies": {
+      "companyName": "Apple UK",
+      "employees": [
+      ],
+      "taxNo": "1389106396107",
+      "addresses": [
+      ],
+      "email": "apple@example.com",
+      "phone": "+4408001076285",
+      "status": true,
+      "bankAccounts": [
+      ],
+      "rDate": "2023-02-08 12:02:58.738906",
+      "uDate": "2023-02-08 12:02:58.738906"
+    },
+    "addresses": [
+      {
+        "country": "United Kingdom",
+        "city": "London",
+        "district": "Uxbridge",
+        "street": "64",
+        "buildingNumber": "12477",
+        "doorNumber": 35,
+        "coordinates": {
+          "latitude": -73.71,
+          "longitude": 70.78
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "HSBC Holdings",
+        "cardNumber": "370110805237608",
+        "cardExpire": "12/29",
+        "cardType": "MasterCard",
+        "currency": "GBP",
+        "type": 1,
+        "rDate": "2023-02-08 12:02:58.739907",
+        "uDate": "2023-02-08 12:02:58.739907",
+        "status": true
+      }
+    ]
+  },
+  {
+    "companies": {
+      "companyName": "Amazon EU",
+      "employees": [
+      ],
+      "taxNo": "6289824460002",
+      "addresses": [
+      ],
+      "email": "amazon@example.net",
+      "phone": "+3524813441270",
+      "status": true,
+      "bankAccounts": [
+      ],
+      "rDate": "2023-02-08 12:02:58.739907",
+      "uDate": "2023-02-08 12:02:58.739907"
+    },
+    "addresses": [
+      {
+        "country": "Luxembourgh",
+        "city": "Luxembourgh City",
+        "district": "1855 Luxembourg",
+        "street": "38 Av. John F. Kennedy",
+        "buildingNumber": "02147",
+        "doorNumber": 51,
+        "coordinates": {
+          "latitude": -37.77,
+          "longitude": 104.59
+        },
+        "type": 0,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "BNP Paribas",
+        "cardNumber": "180064152153365",
+        "cardExpire": "07/24",
+        "cardType": "American Express",
+        "currency": "EUR",
+        "type": 1,
+        "rDate": "2023-02-08 12:02:58.739907",
+        "uDate": "2023-02-08 12:02:58.739907",
+        "status": true
+      }
+    ]
+  },
+  {
+    "companies": {
+      "companyName": "Meta EU",
+      "employees": [
+      ],
+      "taxNo": "2198088306021",
+      "addresses": [
+      ],
+      "email": "meta@example.net",
+      "phone": "+3534198161335",
+      "status": true,
+      "bankAccounts": [
+      ],
+      "rDate": "2023-02-08 12:02:58.739907",
+      "uDate": "2023-02-08 12:02:58.739907"
+    },
+    "addresses": [
+      {
+        "country": "Ireland",
+        "city": "Dublin",
+        "district": "Ballsbridge",
+        "street": "4304",
+        "buildingNumber": "554",
+        "doorNumber": 26,
+        "coordinates": {
+          "latitude": -55.57,
+          "longitude": 73.84
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "ING Bank",
+        "cardNumber": "4544937579873256",
+        "cardExpire": "12/27",
+        "cardType": "American Express",
+        "currency": "EUR",
+        "type": 1,
+        "rDate": "2023-02-08 12:02:58.740907",
+        "uDate": "2023-02-08 12:02:58.740907",
+        "status": true
+      }
+    ]
+  },
+  {
+    "companies": {
+      "companyName": "Microsoft WA",
+      "employees": [
+      ],
+      "taxNo": "6180327295127",
+      "addresses": [
+      ],
+      "email": "microsoft@example.com",
+      "phone": "+18669939330",
+      "status": true,
+      "bankAccounts": [
+      ],
+      "rDate": "2023-02-08 12:02:58.740907",
+      "uDate": "2023-02-08 12:02:58.740907"
+    },
+    "addresses": [
+      {
+        "country": "United States",
+        "city": "Washington",
+        "district": "Redmond",
+        "street": "3773",
+        "buildingNumber": "0240",
+        "doorNumber": 77,
+        "coordinates": {
+          "latitude": 39.67,
+          "longitude": -132.76
+        },
+        "type": 1,
+        "status": true
+      }
+    ],
+    "bank_accounts": [
+      {
+        "bankName": "Garanti BBVA",
+        "cardNumber": "6580954350843424",
+        "cardExpire": "02/26",
+        "cardType": "Visa",
+        "currency": "EUR",
+        "type": 1,
+        "rDate": "2023-02-08 12:02:58.740907",
+        "uDate": "2023-02-08 12:02:58.740907",
+        "status": true
+      }
+    ]
+  }
+]

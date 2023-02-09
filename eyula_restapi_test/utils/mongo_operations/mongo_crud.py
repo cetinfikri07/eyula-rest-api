@@ -195,6 +195,32 @@ def delete_many():
 
     return result
 
+def get_address_list():
+    db = connect("eyula")
+    result = db.companies.find_one(
+        filter = {"companyName":"Google"},
+        projection = {"addresses":True,"_id":0}
+        )
+
+    print(result.get("addresses"))
+
+get_address_list() 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

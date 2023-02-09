@@ -140,47 +140,86 @@ def register_bulk(request):
         data = request.get_json()
         for obj in data:
             key = "customers" if "customers" in obj else "companies"
-            user = obj[key]
-            addresses = obj["addresses"]
-            accounts = obj["bank_accounts"]
+            user = obj.get(key)
+            addresses = obj.get("addresses")
+            accounts = obj.get("bank_accounts")
+            company = user.get("company")[0]
 
             #insert customer
             user.pop("company",None)
             user_result = db[key].insert_one(user)
-            user_id = user_result.inserted_id
+            user_id = str(user_result.inserted_id)
 
-            #insert address
-            address_insert_result = db.addresses.insert_many(addresses)
-            address_ids = [str(_id) for _id in address_insert_result.inserted_ids]
+            #insert emplyoyees
+            if company:
+                company_update_result = db.companies.update_one(
+                        filter = {"companyName" : company},
+                        update = {"$push" : {"employees" : user_id}}
+                        )
 
-            #push address id to user
-            address_update_result = db[key].update_one(
-                filter = {"_id" : user_id},
-                update = {"$push" : {"addresses" : {"$each" : address_ids}}}
-                )
+                #get company address
+                company_address = db.companies.find_one(
+                    filter = {"companyName" : company},
+                    projection = {"addresses":True,"_id":False}
+                    ).get("addresses")[0]
 
-            #insert accounts 
-            account_insert_result = db.bank_accounts.insert_many(accounts)
-            account_ids = [str(_id) for _id in account_insert_result.inserted_ids]
+                #get company accounts
+                company_account = db.companies.find_one(    
+                    filter = {"companyName" : company},
+                    projection = {"bankAccounts":True,"_id":False}
+                    ).get("bankAccounts")[0]
 
-            #push account_ids to user
-            account_update_result = db[key].update_one(
-                filter = {"_id" : user_id},
-                update = {"$push" : {"bankAccounts" : {"$each" : account_ids}}}
-                )
 
-            #insert account 
+                #push address list to customers addresses field
+                address_update_result = db[key].update_one(
+                        filter = {"_id" : ObjectId(user_id)},
+                        update = {"$push" : {"addresses" : company_address}}
+                        )
 
-        result = {
-            "status_code":200,
-            "insertedUserId":user_id,
-            "insertedAddressIds":address_ids,
-            "insertedAccountIds":account_ids,
-            "macthedAddressCount":address_update_result.matched_count,
-            "modifiedAddressCount":address_update_result.modified_count,
-            "matchedAccountCount":account_update_result.matched_count,
-            "modifiedAccountCount":account_update_result.modified_count
-            }
+                account_update_result = db[key].update_one(
+                        filter = {"_id" : ObjectId(user_id)},
+                        update = {"$push" : {"bankAccounts" : company_account}}
+                        )
+
+                result = {
+                    "status_code":200,
+                    "insertedUserId":user_id,
+                    "matchedUser":address_update_result.matched_count,
+                    "insertedAddressCount":address_update_result.modified_count,
+                    "insertedAccountCount":account_update_result.modified_count
+                    }
+
+            else:
+                #insert address
+                address_insert_result = db.addresses.insert_many(addresses)
+                address_ids = [str(_id) for _id in address_insert_result.inserted_ids]
+
+                #push address id to user
+                address_update_result = db[key].update_one(
+                    filter = {"_id" : user_id},
+                    update = {"$push" : {"addresses" : {"$each" : address_ids}}}
+                    )
+
+                #insert accounts 
+                account_insert_result = db.bank_accounts.insert_many(accounts)
+                account_ids = [str(_id) for _id in account_insert_result.inserted_ids]
+
+                #push account_ids to user
+                account_update_result = db[key].update_one(
+                    filter = {"_id" : user_id},
+                    update = {"$push" : {"bankAccounts" : {"$each" : account_ids}}}
+                    )
+
+                result = {
+                    "status_code":200,
+                    "insertedUserId":user_id,
+                    "insertedAddressIds":address_ids,
+                    "insertedAccountIds":account_ids,
+                    "macthedAddressCount":address_update_result.matched_count,
+                    "modifiedAddressCount":address_update_result.modified_count,
+                    "matchedAccountCount":account_update_result.matched_count,
+                    "modifiedAccountCount":account_update_result.modified_count
+                    }
 
     except Exception as err:
             exc_type, exc_obj, exc_tb = sys.exc_info()
